@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     DATA_DIR : str = "Books/thepivotyear"
     CHUNK_SIZE : int = 1000
     CHUNK_OVERLAP : int = 150
+    PDF_START_PAGE = 15 # PDF page 15 onwards - special case for "thepivotyear" book
     
     TOP_K_CONSTANT : int = 5
     
