@@ -10,13 +10,13 @@ class Settings(BaseSettings):
     EMBEDDING_MODEL_NAME : str = "gemini-embedding-2-preview"
     DATABASE_DIR : str = "chorma_book_store"
     DATA_DIR : str = "Books"
-    CHUNK_SIZE : int = 1000
+    CHUNK_SIZE : int = 900
     CHUNK_OVERLAP : int = 150
     PDF_START_PAGE :int = 15 # PDF page 15 onwards - special case for "thepivotyear" book
     TOP_K_CONSTANT : int = 5
     
-    EMBEDDING_BATCH_SIZE = 1 
-    EMBEDDING_SLEEP_DELAY = 4.0
+    # EMBEDDING_BATCH_SIZE : int = 1 
+    # EMBEDDING_SLEEP_DELAY : float = 3.7
     
     model_config = SettingsConfigDict(
         env_file=".env",

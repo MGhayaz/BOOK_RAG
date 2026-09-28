@@ -58,8 +58,8 @@ def load_store() -> Chroma:
     chunks = splitter.split_documents(docs)
     if not chunks:
         raise RuntimeError("PDFs loaded, but no chunks were created.")
-    vector_store = Chroma.from_documents(
-        embedding=embeddings,
+    vector_store = Chroma(
+        embedding_function=embeddings,
         persist_directory=str(database_path),
     )
     print(f"Total chunks to embed: {len(chunks)}. Starting batched upload...")
@@ -81,14 +81,14 @@ def build_retriever():
     return load_store().as_retriever(search_kwargs={"k": settings.TOP_K_CONSTANT})
 if __name__ == "__main__":
     retriever = build_retriever()
-    result = retriever.invoke("One day we will realize that happiness is not what?") # demo question
+    result = retriever.invoke("When you wake up one day and realize more than half of your life is?") # demo question
     
     for rs in result :
         page_number = rs.metadata.get("page")
         print(
                 f"[{rs.metadata.get('source_file', 'Unknown')}] "
                 f"[Page {(page_number + 1) if page_number is not None else 'N/A'}] "
-                f"{rs.page_content[:150]}...\n"
+                f"{rs.page_content}...\n"
             )
         
     
