@@ -11,7 +11,7 @@ with open(settings.DATASET_PATH) as v :
     dataset = json.load(v)
 retriever = build_retriever()
 test_cases = []
-for case in dataset [:5] :
+for case in dataset :
     retrieved = retriever.invoke(case["query"])
     retrieval_context = [doc.page_content for doc in retrieved]
     test_cases.append(
@@ -22,25 +22,21 @@ for case in dataset [:5] :
             actual_output=("generator not evaluated in this run"),
         )
     )
-    time.sleep(settings.EMBEDDING_SLEEP_DELAY)
+    time.sleep(settings.OPENAI_EMBEDDING_SLEEP_DELAY)
 metrics = [
-    ContextualRecallMetric(threshold=settings.EVAL_THRESHOLD,model=settings.JUDGEMENT_MODEL_NAME,include_reason=True),
-    ContextualPrecisionMetric(threshold=settings.EVAL_THRESHOLD,model=settings.JUDGEMENT_MODEL_NAME,include_reason=True),
+    ContextualRecallMetric(threshold=settings.EVAL_THRESHOLD,model=settings.OPENAI_JUDGEMENT_MODEL_NAME,include_reason=True),
+    ContextualPrecisionMetric(threshold=settings.EVAL_THRESHOLD,model=settings.OPENAI_JUDGEMENT_MODEL_NAME,include_reason=True),
 ]    
 evaluate(
     test_cases=test_cases,
     metrics=metrics,
-    async_config=AsyncConfig(
-        max_concurrent=1,    # reduce parallel calls
-        throttle_value=40 ,    # wait 3 seconds between test cases
-    ),
     hyperparameters={
             #"retriever": "base_k5",          # vs "reranked" when you swap it in
-            "embedding_model": settings.EMBEDDING_MODEL_NAME,
+            "embedding_model": settings.OPENAI_EMBEDDING_MODEL_NAME,
             "chunk_size": settings.CHUNK_SIZE,
             "chunk_overlap": settings.CHUNK_OVERLAP,
             "top_k": settings.TOP_K_CONSTANT,
-            "judge_model": settings.JUDGEMENT_MODEL_NAME,
+            "judge_model": settings.OPENAI_JUDGEMENT_MODEL_NAME,
             "golden_set": settings.DATASET_PATH,
             
     },

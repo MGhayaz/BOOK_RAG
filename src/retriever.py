@@ -1,6 +1,6 @@
 from core.config import settings
 import time
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from pathlib import Path
 from pypdf import PdfReader
@@ -39,8 +39,8 @@ def load_pdf_docs() -> list[Document]:
 
 # 2. BUILD : chunk, embed once, and keep it on disk so we don't re-embed [delete db file if changes are made in setting]
 def load_store() -> Chroma:
-    embeddings = GoogleGenerativeAIEmbeddings(
-        model=settings.EMBEDDING_MODEL_NAME
+    embeddings = OpenAIEmbeddings(
+        model=settings.OPENAI_EMBEDDING_MODEL_NAME
     )
     database_path = Path(settings.DATABASE_DIR)
     if database_path.exists():
@@ -63,25 +63,36 @@ def load_store() -> Chroma:
         persist_directory=str(database_path),
     )
     print(f"Total chunks to embed: {len(chunks)}. Starting batched upload...")
-    batch_size = settings.EMBEDDING_BATCH_SIZE
+    batch_size = settings.OPENAI_EMBEDDING_BATCH_SIZE
+    sleep_delay = settings.OPENAI_EMBEDDING_SLEEP_DELAY
+
     for i in range(0, len(chunks), batch_size):
         batch = chunks[i:i + batch_size]
-        
-        # Add current batch to the vector database
-        vector_store.add_documents(documents=batch)
-        print(f"Successfully embedded chunk {i + 1} of {len(chunks)}.")
-        
-        # Prevent hitting the Gemini RPM limit on the next loop
-        if i + batch_size < len(chunks):
-            time.sleep(settings.EMBEDDING_SLEEP_DELAY)
-            
+
+        try:
+            vector_store.add_documents(documents=batch)
+        except Exception as exc:
+            print(f"\n❌ Embedding error: {type(exc).__name__}: {exc}\n")
+            raise
+
+        processed = min(i + batch_size, len(chunks))
+
+        print(
+            f"Successfully embedded {processed} "
+            f"of {len(chunks)} chunks."
+        )
+
+        # Keep this configurable because OpenAI also has rate limits.
+        if processed < len(chunks) and sleep_delay > 0:
+            time.sleep(sleep_delay)
+
     return vector_store
 
 def build_retriever():
     return load_store().as_retriever(search_kwargs={"k": settings.TOP_K_CONSTANT})
 if __name__ == "__main__":
     retriever = build_retriever()
-    result = retriever.invoke("When you wake up one day and realize more than half of your life is?") # demo question
+    result = retriever.invoke("How can I stop reacting to everything so quickly? What does the book suggest?") # demo question
     
     for rs in result :
         page_number = rs.metadata.get("page")
@@ -91,4 +102,4 @@ if __name__ == "__main__":
                 f"{rs.page_content}...\n"
             )
         
-    
+   
