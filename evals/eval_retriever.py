@@ -5,13 +5,13 @@ from deepeval.test_case import LLMTestCase
 from deepeval.metrics import ContextualRecallMetric,ContextualPrecisionMetric
 import json
 import time
-from src.retriever import build_retriever
+from src.reranker import RerankingRetriever
 
 with open(settings.DATASET_PATH) as v :
     dataset = json.load(v)
-retriever = build_retriever()
+retriever = RerankingRetriever()
 test_cases = []
-for case in dataset :
+for case in dataset  : # number of testcases depreicated cuz i am learning
     retrieved = retriever.invoke(case["query"])
     retrieval_context = [doc.page_content for doc in retrieved]
     test_cases.append(
@@ -31,7 +31,7 @@ evaluate(
     test_cases=test_cases,
     metrics=metrics,
     hyperparameters={
-            #"retriever": "base_k5",          # vs "reranked" when you swap it in
+            "retriever": "reranker",        
             "embedding_model": settings.OPENAI_EMBEDDING_MODEL_NAME,
             "chunk_size": settings.CHUNK_SIZE,
             "chunk_overlap": settings.CHUNK_OVERLAP,

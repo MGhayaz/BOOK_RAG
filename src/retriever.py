@@ -40,7 +40,8 @@ def load_pdf_docs() -> list[Document]:
 # 2. BUILD : chunk, embed once, and keep it on disk so we don't re-embed [delete db file if changes are made in setting]
 def load_store() -> Chroma:
     embeddings = OpenAIEmbeddings(
-        model=settings.OPENAI_EMBEDDING_MODEL_NAME
+        model=settings.OPENAI_EMBEDDING_MODEL_NAME,
+        dimensions=3072
     )
     database_path = Path(settings.DATABASE_DIR)
     if database_path.exists():
