@@ -8,7 +8,8 @@ class Settings(BaseSettings):
     GOOGLE_API_KEY: str = Field(...,min_length=1,)
     OPENAI_API_KEY: str = Field(...,min_length=1,)
 # yahan bi env ke values dale kyuki agar .env se feilds missing hue toh yahan as default diye jaate [priority env then config]
-    LLM_MODEL_NAME: str = "gemini-3.5-flash-lite"
+    LLM_MODEL_NAME: str = "gpt-4o-mini"
+    GENERATOR_TEMPERATURE : int = 0
     OPENAI_EMBEDDING_MODEL_NAME : str = "text-embedding-3-large"
     OPENAI_JUDGEMENT_MODEL_NAME : str = "gpt-4o-mini"
     EVAL_THRESHOLD : float = 0.7
