@@ -1,0 +1,253 @@
+[
+  {
+    "id": "f001",
+    "query": "What does the author mean by saying that rejection is often redirection?",
+    "ideal_context": "The author says you tell life what you want, and life tells you how to get it. When you ask for soulmate love, you must listen if life says, but not with them. When you ask for prosperity, you must listen if life says, but not like this. When you ask for belonging, you must listen if life says, but not here. What feels on the surface like rejection is often redirection. When you ask for a big life, you cannot keep fighting for a smaller one to stay.",
+    "chunk_ids": [
+      "8e7affd5-437f-4900-b555-52a32e2a5d31",
+      "b974b861-452d-4b5d-b509-fc1692c379af"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [18]
+  },
+  {
+    "id": "f002",
+    "query": "How can I tell how well I am doing in life?",
+    "ideal_context": "The author says it is easy to tell how you are doing in life. When you go outside, how beautiful is the flower? That is how you know.",
+    "chunk_ids": [
+      "0f54416e-5107-4df8-99b1-7ade6e8bfe50"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [26]
+  },
+  {
+    "id": "f003",
+    "query": "Why does the author say heavy feelings are asking for attention rather than intervention?",
+    "ideal_context": "The author says heavy feelings are not asking for your intervention; they are asking for your attention. When you come into full awareness of what you feel, the feeling will gradually release itself. You participate in your suffering when you take action to delay, avoid, resist, or fracture that awareness of your feeling states and end up stuck beneath them. You will probably feel really reactive when you start to pay attention to the sensations going on inside your body. When you begin to come into awareness of each one that makes you uncomfortable, you are going to want to jump to fix, change, or do something that could make the feeling go away. It does not, because the feeling is not in the things you are fixing, changing, or distracting yourself with. The feeling is in you. It is not asking to be put onto some physical form within the world, but simply to be metabolized, processed, and eventually churned into an unconscious wisdom that will guide you forward in ways more powerful than you can even perceive from where you currently stand.",
+    "chunk_ids": [
+      "0f33f336-7518-4c60-bd64-aeca4c3b7870",
+      "47ca28f8-a132-424e-a521-a20480d924d1",
+      "0e495c41-4ae2-4dbb-9d3e-9eeb3b42fb1f",
+      "f996435e-fdb3-439d-abb2-ccaf42224163"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [37, 38]
+  },
+  {
+  "id": "f004",
+  "query": "What does the author say about love that goes unrequited, and how should I move forward from it?",
+  "ideal_context": "The author says anything that goes unrequited is just unmatched energy. It is not about who is more worthwhile than who, or about which traits, baggage, or strengths tally up to place you in or out of the box of being loved or left. What it comes down to is misaligned momentum, a way in which you are moving through the world that does not flow congruently to the way someone or something else is. This does not mean that either of your rivers is misdirected, but sometimes the idea of leaping onto another person's path can become an escape fantasy, an idea of how you might remove yourself from the inevitability of our own inner work. This is futile, because the things we latch onto in an effort to avoid our own demons are often the very ones that bring us right to them. So you let go, because you are attached to something that will never bring you fully to where you are meant to be. Your love was not wasted on those who could not love you back. Rejection may be painful, but it is not indicative of your inability to connect. Your ability to love strengthens with practice, with time, with your clear willingness to offer love even to those least willing to receive it. Your journey then becomes one of discernment: it is not about how you love, but who. No two loves are repeatable, because the chemical reaction between souls, the merging of little universes, makes a world all its own, a compound that cannot be recreated. The loss of that is unquestionably something to grieve, but sunsets never paint the sky in exactly the same shades again either. There are opportunities that will arrive at your door in the morning that will not come back in the afternoon. There are moments where you will gather just the right people, at just the right time in all of your lives, when there are enough common threads to bind you into a collective resonance that makes you feel safe and known. There are evenings where you will laugh your way through the moonrise, and you will never be this young again. Yes, that love was incomparable, but there are other exquisite things, too. Find them. Let them engulf you.",
+  "chunk_ids": [
+    "d288440d-e000-4551-b900-547dbcb8b249",
+    "0287eb09-8bde-4a77-b73c-5ab52c2f2198",
+    "90e9f4db-71d4-44cc-9e32-a0131e55584d",
+    "d763285a-1fb9-4d0f-a961-4340a1ee26cc",
+    "549fbc99-0937-4dec-bce6-07fc3bc0c7e1",
+    "b577d492-3107-4081-bafa-fb5ccc8175c9",
+    "a3c07ef9-76b3-435a-abbd-805e153e4dad"
+  ],
+  "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+  "page_number": [55, 56]
+},
+  {
+    "id": "f005",
+    "query": "What should I say when someone tells me I've changed?",
+    "ideal_context": "The author says losing yourself is not always a bad thing. The point is to lose some versions of yourself, to let some parts of yourself disintegrate within the fire of your personal transformation. You are meant to grow as new evidence and experience are presented to you, as you adapt to new ideas, solve new problems, gain new skills, hear new perspective, and see more of the world as it really is. You are not meant to remain one static character within your life. When someone says to you, you've changed, you should reply, how have you not?",
+    "chunk_ids": [
+      "78616104-8994-42c2-986a-b7bc60565848",
+      "c9c2b06b-3858-4072-8d43-9891ac0af784"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [29]
+    },
+  {
+    "id": "f006",
+    "query": "How does the author say I can stop worrying?",
+    "ideal_context": "The author says you stop worrying by realizing that the version of yourself who will be able to handle every situation that might arise in your life will be born in the precise moment that situation comes to be. No matter where your path might take you, the version of yourself you will need in those moments will emerge right as you need it and not a second before. You cannot call upon all of the parts of yourself to exist at once, and different versions of you are needed for various aspects of your life. Find peace in knowing that you are more than one thing, and within the layers of who you are, both visible and invisible, exists a strength that is equal to or more powerful than anything you may come to face. You also stop worrying when you realize that the power you need to get through absolutely anything is dormant inside of you and will not be activated until the moment you need it. The version of you that will walk you forward will be born in the doorway of the moment you need them. You are not meant to contain within yourself every possible version of who you might one day be, and you do not have to embody the fighter and the lover and the healer and the maker all at once. There is a time for everything, a season for each. The human spirit is the fiercest weapon on the planet, and the force of all of nature is inside of you. It will be awakened when you call upon it, and not a second prior.",
+    "chunk_ids": [
+      "ad1f1bea-74b8-42c0-a520-d7e97420214a",
+      "b69ea2c9-87f6-4eaa-a240-e996fd7e1c6c",
+      "339a67d7-452f-4457-acb2-1bf7f0edda28",
+      "e1e9589e-db0b-4fdc-b58c-64a7a0df2d29",
+      "17512a79-ec75-452b-8523-6b05c672b48f",
+      "29037e78-69f3-492e-be50-a35409fe1e8e"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [52, 75]
+  },
+  {
+    "id": "f007",
+    "query": "Why does the author say we resist our own growth?",
+    "ideal_context": "The author says you will resist your own growth because you were taught that what is most familiar is most worthwhile, and because you came to believe letting go is a loss when it is in fact a beginning. You will resist it because you do not yet know that nothing presses us to release it unless something else is imminently waiting to arrive. You resist in the same way a seed must break through its own shell before it can take root, in the same way the darkest hour of the night is the one before the first light of dawn meets the horizon. You will resist your own growth until you learn that growth is all there is, and when you try to stop your own evolution, you stand in the way of every beautiful thing you intend to experience. You will resist your own growth because it is scary to grow, but slowly you will realize it is far scarier not to.",
+    "chunk_ids": [
+      "a0b68cca-941e-4fde-8e08-f155903acdb9",
+      "5d9cb7ac-df70-4f9f-8409-360cc65a2213",
+      "f002f994-70cf-4d8e-8e49-890c0b560583"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [73]
+  },
+  {
+    "id": "f008",
+    "query": "Do I need to figure my whole life out today?",
+    "ideal_context": "The author says you do not have to figure your entire life out today. Show up a little more as the person you want to be. Tomorrow, do it again.",
+    "chunk_ids": [
+      "dfe99983-0843-4236-81bc-32fa071320cc"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [71]
+  },
+  {
+    "id": "f009",
+    "query": "Should I focus on fixing my weaknesses or on developing my strengths?",
+    "ideal_context": "The author says you should nurture and engage in the most stunning aspects of yourself and give the majority of your time to your greatest strengths. You are not here to simply compensate for your weaknesses, to level yourself out in every possible direction, or to grow the parts of you that were never destined to come fully into form. The author asks you to imagine spending the rest of your years just trying to compensate for the things you were never supposed to be good at, cultivating and maturing your weaknesses. Instead, mature your strengths. Find what you are good at and get better, not because you are racing toward some imaginary finish line but because fate is a practice, a commitment to take the raw potentiality alive within us and to fall in love with it, to make something of it, and to offer it. Offer it far and wide to anyone who wants to receive it. The gift is not what we are given, but what we are meant to give away. The author also hopes you will see your strengths a little more than your weaknesses.",
+    "chunk_ids": [
+      "30716b05-220f-4f17-8939-37707f1cf148",
+      "3ef6b8b8-e3dc-4a2e-afda-423d7010944e",
+      "7c51c885-cb99-4d15-aaf0-c264cadf6661",
+      "60420f7b-e7dc-42b8-93ea-3164bc01e926",
+      "0a9372ef-4a99-4c64-9396-4bad51e516cb"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [19, 63, 78]
+  },
+  {
+    "id": "f010",
+    "query": "What does the author mean by practicing the pause?",
+    "ideal_context": "The author says self-protection is learning how to take a pause between what you feel and how you react. When there is no awareness between what you perceive and the way that you respond, anything can control you. So practice the pause. Widen the space between what you sense and what you do about it. Decide what is worth your energy, because what you engage with is what you empower.",
+    "chunk_ids": [
+      "b0c36cfe-586f-42a9-ac9b-33eae2af0007",
+      "78a4476e-ab93-4a2d-a91b-421107d6aa77"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [15]
+  },
+  {
+    "id": "f011",
+    "query": "Should I aim for a life without any fight in it?",
+    "ideal_context": "The author says you do not need a life without a fight. You need a life worth fighting for.",
+    "chunk_ids": [
+      "ad3ad3c7-d0b8-4457-90bf-d89e9a15ecae"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [39]
+  },
+  {
+    "id": "f012",
+    "query": "What kind of people does the author say I should surround myself with?",
+    "ideal_context": "The author says to move toward the people who expand your perimeter of possibility, who believe in your potential just a little bit more than your reality. Move toward the people who remind you of the person you know you are meant to be, the ones who stretch your soul and make you feel something real. Move toward the people who remind you of what you contain, who help you fall a little more in love with life, and toward the people who energize you more than they drain you. These little signs are not so little; they are the markers of our soulmates, in all the forms they come. The right ones lead you back to yourself and remind you of all the pieces of yourself that went missing over the years. They make you more of the person you have always wanted to be, the person you have kept quietly inside you all along. The right ones will encourage and inspire you, often without saying a word. The presence of their authentic selves awakens something so similar inside of you that you feel no choice but to rise up and allow it to blossom. They teach you not through what they tell you, but simply by being who they are. If you are not yet where you want to be, go find the souls who are standing on your desired horizon and surround yourself with the people you admire, trust, and would want to grow to be. Much of your development happens by osmosis, an unconscious acquisition of the traits and thought patterns of those around you. It will light your path. Prioritize the depth of your connections as opposed to the width of them. What matters is not how many people you can surround yourself with at any given time, but how much time you spend with the ones who actually see you, who value and prioritize you, who feel like the family you have chosen.",
+    "chunk_ids": [
+      "b974b861-452d-4b5d-b509-fc1692c379af",
+      "555636f2-b8a0-464d-ad81-8796f96e9488",
+      "e91aa682-ca79-40c7-ae90-c388bc376090",
+      "9d387904-8bce-4568-a0ae-d23f22a44a88",
+      "c03a5e7e-c405-4644-bff6-7575fd73457a",
+      "f236b492-f552-4d33-8eb7-6797d04dea58",
+      "6427b160-1b89-4e50-a398-dd1c829d2684",
+      "dcf45d32-c42c-4565-866f-84c3d170f4d3"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [18, 61, 91, 92]
+  },
+  {
+    "id": "f013",
+    "query": "What does the author say about forcing something that isn't working?",
+    "ideal_context": "The author says you cannot force what is not working. You will not bloom where you cannot deepen your roots, where you feel unsettled within yourself, within the life you are trying to build. You cannot force anything to be right; you have to listen. Listen to how you are responded to and to how you fit. Your environment will be one of the single most important elements of your life's journey, and it is your job to plant yourself somewhere you can actually expand, you can actually connect, and you can most easily step into the person you really want to be.",
+    "chunk_ids": [
+      "5c5af19e-926c-46d4-a41a-ec81bdf5eeef",
+      "48cd4c27-5e26-4a6c-b8ab-c05e624628e9"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [83]
+  },
+  {
+    "id": "f014",
+    "query": "How does the author say I should act depending on the emotion I'm feeling?",
+    "ideal_context": "The author says that when you are tired, rest. When you are motivated, act. When you are inspired, create. When you are hopeful, leap. When you are doubtful, wait. When you are ready, go. Those feeling states act as portals of possibility, and when you let them slide by, you choose not to enter the parallel reality it was pulling you toward. Listen to your body, and listen to your soul. These emotions are rarely random, but instead open and close doors at just the right time. When you are in anger, say nothing. When you are in inspiration, run toward what is lighting you up inside. When you are in love, savor and share it, and make it known. It is not your thoughts and feelings alone that dictate and determine the climate of your soul, but the actions those thoughts and feelings initiate that end up forming your reality. Learn to respond intelligently to what your emotions are asking, before they become erratic, loud, and seemingly out of control.",
+    "chunk_ids": [
+      "53804c1d-8062-45f4-850b-0cee1006207f",
+      "1a629c44-23fd-4f62-ba36-0a0631d739fa",
+      "8cd123c7-f28d-4999-9142-d1c31744f04d",
+      "c559330b-f9f3-4104-ac7f-51a056ef5fe2"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [41, 60]
+  },
+  {
+    "id": "f015",
+    "query": "What are the two rivers the author describes running through us?",
+    "ideal_context": "The author says there are two rivers running through us at all times: one that carries all the voices of the world, and the other a single voice that stands alone, the voice of our inner guide. The first river is so strong, steady, and constant with its instruction, guidance, and forewarning that most of us live mindlessly, being pulled to each milestone, each thing we were told to reach for, to move toward, to achieve. Eventually, we look down and realize our hands are empty, because our lives were woven together by a storyline we did not write. As we lose sight of our inner compass, a fog is cast over our awareness of the moment, and we become saddled with confusion, indecision, and uncertainty. We become incapable of leading ourselves because the two rivers are shouting over one another, tempting us with virtues and repelling us with vices. Over time, we become consumed by the stiffness of trying to be what we are told, existing in contrast to the soft, effervescent truth living deep inside. Despite how loud the first river can become, we can always hear the quiet call of the second. Our lives begin the day we choose to follow our inner knowing, even while hearing, and at times heeding, the collective knowledge of the first. The first realization of wisdom is the recognition that there is truth fragmented everywhere, and to delineate the two rivers into wholly good and wholly bad is to deprive ourselves of the depth and beauty that our hearts are truly trying to bring about. The journey is not about abandoning one in favor of the other, but knowing when it is time to listen, to hear, and to follow each.",
+    "chunk_ids": [
+      "78a4476e-ab93-4a2d-a91b-421107d6aa77",
+      "7c10b892-8b7e-4214-b0eb-bab2997df7f7",
+      "866355d1-bfbf-45a8-8f32-63fc851519ab",
+      "ff87cbe2-2f0f-4a38-8b1d-0744d0989c93",
+      "f1ba5a1a-fdaa-43e8-99f4-51eec6d566df"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [15, 16]
+  },
+  {
+    "id": "f016",
+    "query": "What does the author mean by saying you cannot desire what you do not already contain?",
+    "ideal_context": "The author says you cannot desire what you do not already contain. Desire is a projection outward that is proportionate to potential inward. There are so many possibilities within this world, so many things to hope for and to aspire to, and yet it is a very specific vision that awakens you on the inside. There are very few things that excite you in a way that makes you nearly uncomfortable with your wanting of them. Desire is so integral to who you are that it is part of you even if you are not conscious of it, even when your ego chooses to shield you from your awareness of it. What you are waiting on is your own willingness to accept the mountain you must climb in order to pull those desires out of the deepest parts of you and create them in the world you already inhabit.",
+    "chunk_ids": [
+      "f1ba5a1a-fdaa-43e8-99f4-51eec6d566df",
+      "f2c3014a-d3f4-4f1d-b43a-6a467d44ef77",
+      "b4f3db12-32fe-490e-9239-0166e607d2a7"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [16]
+  },
+  {
+    "id": "f017",
+    "query": "Why does the author say not to give up on love?",
+    "ideal_context": "The author says there are a lot of things you can give up on in this life, but love is not one of them. There are a lot of things you can let go of, a lot of things you are allowed to say you were wrong or a little too hopeful about. There are a lot of things you can age out of, phase through, and move on from, but love is not one of them. You have to believe in love up until the very end, real love, true love, honest love. To not give up on love is to be open to how it may come, and when. To not give up on love is to accept that the deepest possible experience of it might not look exactly as you pictured. To not give up on love is to realize that it will not be something that sweeps you off your path, but helps you stand more firmly on your own two feet. It is not something that idealizes an idea of you but does not support the person you are becoming; love is willing to care for you in the most constant, simple, human ways. In the end, love is not something you find one day; it is something you learn to see surrounding you already, and something you heal yourself into being able to fully receive.",
+    "chunk_ids": [
+      "8f95a748-5547-41f0-97d5-0da791375e04",
+      "89605e76-ebcf-4199-8e8e-9d6337255f83",
+      "41ad56cd-6fdd-4cca-89d7-2b29b8fb5004",
+      "329e99d2-af58-4ebd-8889-02269d1703c4"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [24]
+  },
+  {
+    "id": "f018",
+    "query": "Can I force myself to heal faster, according to the author?",
+    "ideal_context": "The author says you cannot force healing. You can only intend it, and then allow it. In the same way that every drop from a rainstorm must find its place upon the ground, every sensation in your body must be fully processed and released. This will not occur on your preferred timeline. It will come back in waves when you thought the waters were still. You are not letting go of an experience, a person, or a place, but of all of the things you assumed you would be, all of the things you made the loss mean about you, and all the feelings that have to slowly unravel themselves so as not to overwhelm you. This takes time, so give that to yourself. What you gain from the process far exceeds whatever you think you lose in taking quiet refuge.",
+    "chunk_ids": [
+      "2c7c0397-ab46-442b-a43b-b3e1cd9fc80b",
+      "89020b3a-a4dc-42dd-b2f4-f1e7082c0ce2",
+      "586c2f03-89cb-45ed-bbdc-4802c90e26f8"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [57]
+  },
+  {
+    "id": "f019",
+    "query": "What does the author say about my inner child?",
+    "ideal_context": "The author says that in everything you choose, you should first ask what it will do to your soul, including whether it will impress others but disappoint the child inside you who is waiting to see what you do with your freedom. It is entirely possible to carry teenage complexes into your adult life and still struggle with outdated insecurities and fears at thirty or sixty. We assume that time will make healing an inevitability, but that is not always true. Sometimes you have to go inside and fix it yourself, and actively and consciously choose to believe what your most mature self would. Nothing would disappoint your inner child more than to learn they had made it through all those decades and the little voice inside them was still not yet their friend. If you are holding yourself back because changing course feels too shameful to bear, imagine that after you took the leap someone met you on the other side and said, thank goodness, I thought you would never see the light, and imagine that someone was the child inside you. The plan you had for your life may have been built from the pieces of what your child-self thought would keep them safe. You are no longer a child, and you need something more than safety. You need to be set free.",
+    "chunk_ids": [
+      "2ec86dad-f9a9-42cf-986b-c955a7330f73",
+      "54a48e0a-a5f5-4c85-a2b3-f4d7cc1cc7df",
+      "2b961d83-1d25-4855-b6eb-154368310116",
+      "41d3bc2c-7112-4133-97b4-c772beec0df1",
+      "7b640860-5601-4826-8442-00d57dff3a31",
+      "0bee497a-1d0e-4c80-a9ad-35277ba4b396",
+      "08b0eb1a-50b1-43ef-a9e4-bfc6f19ead0e"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [25, 86, 90, 94]
+  },
+  {
+    "id": "f020",
+    "query": "Do we move on when we decide it's time to?",
+    "ideal_context": "The author says we do not move on when we think it is time. We move on when we slowly allow something a little more interesting, a little more beautiful, a little more compelling to grab our attention and move us into a new world of our own creation.",
+    "chunk_ids": [
+      "81ff1529-23e9-4a35-8cc5-3e8052b21f1c"
+    ],
+    "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
+    "page_number": [42]
+  },
+]
