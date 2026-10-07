@@ -30,7 +30,8 @@ dump = [
 # sort by session then by id so related chunks sit together (easier to scan)
 dump.sort(key=lambda c: (str(c["meta"].get("session", "")), c["id"]))
 
-with open("chunks_dump.json", "w") as f:
+with open("chunks_dump.json", "w",
+    encoding="utf-8") as f:
     json.dump(dump, f, indent=2, ensure_ascii=False)
 
 print(f"Dumped {len(dump)} chunks to chunks_dump.json")

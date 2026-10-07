@@ -7,7 +7,7 @@ import json
 import time
 from src.reranker import RerankingRetriever
 
-with open(settings.DATASET_PATH) as v :
+with open(settings.RETRIEVER_DATASET_PATH) as v :
     dataset = json.load(v)
 retriever = RerankingRetriever()
 test_cases = []
@@ -37,7 +37,7 @@ evaluate(
             "chunk_overlap": settings.CHUNK_OVERLAP,
             "top_k": settings.TOP_K_CONSTANT,
             "judge_model": settings.OPENAI_JUDGEMENT_MODEL_NAME,
-            "golden_set": settings.DATASET_PATH,
+            "golden_set": settings.RETRIEVER_DATASET_PATH,
             
     },
     

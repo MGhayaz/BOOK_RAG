@@ -19,7 +19,8 @@ class Settings(BaseSettings):
     CHUNK_OVERLAP : int = 70
     PDF_START_PAGE :int = 15 # PDF page 15 onwards - special case for "thepivotyear" book
     TOP_K_CONSTANT : int = 5
-    DATASET_PATH : str = ("goldens/dataset.json")
+    RETRIEVER_DATASET_PATH : str = ("goldens/retriever_dataset.json")
+    GENERATOR_DATASET_PATH : str = ("goldens/faithfullness_dataset.json")
     
     EMBEDDING_BATCH_SIZE : int = 1 
     EMBEDDING_SLEEP_DELAY : float = 3.7
