@@ -21,6 +21,7 @@ class Settings(BaseSettings):
     TOP_K_CONSTANT : int = 5
     RETRIEVER_DATASET_PATH : str = ("goldens/retriever_dataset.json")
     GENERATOR_DATASET_PATH : str = ("goldens/faithfullness_dataset.json")
+    APPLICATION_DATASET_PATH :str = ("goldens/application_dataset.json")
     
     EMBEDDING_BATCH_SIZE : int = 1 
     EMBEDDING_SLEEP_DELAY : float = 3.7
