@@ -48,7 +48,7 @@
   ],
   "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
   "page_number": [55, 56]
-},
+  },
   {
     "id": "f005",
     "query": "What should I say when someone tells me I've changed?",
@@ -59,7 +59,7 @@
     ],
     "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
     "page_number": [29]
-    },
+  },
   {
     "id": "f006",
     "query": "How does the author say I can stop worrying?",
@@ -249,5 +249,5 @@
     ],
     "source": "The Pivot Year: 365 Days To Become The Person You Truly Want To Be",
     "page_number": [42]
-  },
+  }
 ]

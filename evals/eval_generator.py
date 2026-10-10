@@ -6,12 +6,12 @@ from deepeval.metrics import FaithfulnessMetric, AnswerRelevancyMetric
 from src.generator import generate
     
 with open(settings.GENERATOR_DATASET_PATH)as f :
-    goldens = json.loads(f)
+    goldens = json.load(f)
 
 
 test_cases = []
 for g in goldens:
-    context = g["ideal_context"]              # known-good context (list of chunk strings) taken from curated dataset
+    context = [g["ideal_context"]]              # known-good context (list of chunk strings) taken from curated dataset
     answer = generate(g["query"], context)    # RUN the generator -> actual_output
 
     test_cases.append(
