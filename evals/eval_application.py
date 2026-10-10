@@ -1,6 +1,6 @@
 from core.config import settings
 from deepeval import evaluate
-from deepeval.test_case import LLMTestCase, LLMTestCaseParams
+from deepeval.test_case import LLMTestCase, SingleTurnParams
 from deepeval.metrics import GEval
 from deepeval.metrics.g_eval import Rubric
 import json
@@ -19,11 +19,11 @@ with open(GOLDEN_PATH) as f:
 rag = RagPipeline()
 test_cases = []
 for g in goldens:
-    result = rag.invoke(g["question"])          # retrieve → rerank → generate
+    result = rag.invoke(g["query"])          # retrieve → rerank → generate
 
     test_cases.append(
         LLMTestCase(
-            input=g["question"],
+            input=g["query"],
             actual_output=result["answer"],
             expected_output=g["ideal_answer"],
         )
@@ -47,7 +47,7 @@ completeness = GEval(
         Rubric(score_range=(5, 8),  expected_outcome="Covers the main key points but misses one or more."),
         Rubric(score_range=(0, 4),  expected_outcome="Misses several key points; only partially covers the expected output."),
     ],
-    evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT, LLMTestCaseParams.EXPECTED_OUTPUT],
+    evaluation_params=[SingleTurnParams.INPUT, SingleTurnParams.ACTUAL_OUTPUT, SingleTurnParams.EXPECTED_OUTPUT],
     threshold=THRESHOLD,
     model=JUDGE_MODEL,
     strict_mode=False,
@@ -70,7 +70,7 @@ style = GEval(
         Rubric(score_range=(4, 6),  expected_outcome="Understandable but somewhat flat, formal, or list-heavy in places."),
         Rubric(score_range=(0, 3),  expected_outcome="Dry, stiff, bare-list, jargon-heavy, or robotic; does not read like a teaching explanation."),
     ],
-    evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT],
+    evaluation_params=[SingleTurnParams.INPUT, SingleTurnParams.ACTUAL_OUTPUT],
     threshold=THRESHOLD,
     model=JUDGE_MODEL,
     strict_mode=False,
