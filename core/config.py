@@ -22,6 +22,12 @@ class Settings(BaseSettings):
     RETRIEVER_DATASET_PATH : str = ("goldens/retriever_dataset.json")
     GENERATOR_DATASET_PATH : str = ("goldens/faithfullness_dataset.json")
     APPLICATION_DATASET_PATH :str = ("goldens/application_dataset.json")
+    TOXICITY_GOLDEN_PATH : str = ("goldens/toxicity_dataset.json")
+    LEAKAGE_GOLDEN_PATH :str = ("goldens/leakage_dataset.json")
+    SCOPE_GOLDEN_PATH :str =  ("goldens/scope_dataset.json")
+    TOXICITY_THRESHOLD : float = 0.3
+    PII_THRESHOLD : float = 0.9
+    
     
     EMBEDDING_BATCH_SIZE : int = 1 
     EMBEDDING_SLEEP_DELAY : float = 3.7

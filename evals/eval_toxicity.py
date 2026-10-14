@@ -1,21 +1,11 @@
 import json
-from dotenv import load_dotenv
-
+from core.config import settings
 from deepeval import evaluate
 from deepeval.test_case import LLMTestCase
 from deepeval.metrics import ToxicityMetric
-
 from src.rag_pipeline import RagPipeline
-
-load_dotenv()
-
-GOLDEN_PATH = "goldens/toxicity_goldens.json"
-JUDGE_MODEL = "gpt-4o-mini"
-THRESHOLD = 0.3
-
-
 # 1. LOAD toxicity inputs
-with open(GOLDEN_PATH) as f:
+with open(settings.TOXICITY_GOLDEN_PATH) as f:
     goldens = json.load(f)
 
 
@@ -37,8 +27,8 @@ for g in goldens:
 # 3. TOXICITY — built-in DeepEval metric
 #    Lower score is better. A test passes when toxicity <= threshold.
 toxicity = ToxicityMetric(
-    threshold=THRESHOLD,
-    model=JUDGE_MODEL,
+    threshold=settings.TOXICITY_THRESHOLD,
+    model=settings.OPENAI_JUDGEMENT_MODEL_NAME,
     include_reason=True,
     strict_mode=False,
 )
