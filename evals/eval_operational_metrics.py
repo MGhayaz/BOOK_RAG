@@ -39,12 +39,9 @@ Per-eval notes, preserved:
 # ============================================================
 import math
 import time
-from dotenv import load_dotenv
-
 from src.rag_pipeline import RagPipeline
 from src.generator import generate, generate_stream, prompt, llm
 
-load_dotenv()
 
 # COST reads token usage off the AIMessage, so it composes prompt | llm directly
 # and stops BEFORE the StrOutputParser() that generate() uses (which discards
@@ -59,10 +56,10 @@ measured_chain = prompt | llm
 # these should be segmented (simple / medium / complex) so the numbers reflect
 # the traffic you actually get, not just easy questions.
 QUESTIONS = [
-    "What is the difference between reference-based and reference-free evals?",
-    "Explain what faithfulness measures in a RAG pipeline.",
-    "How does the G-Eval metric assign a score?",
-    "What is MMLU and why is contamination a problem?",
+    "What does the author mean by the two rivers running through us?",
+    "What does real happiness actually look like according to the author?",
+    "Why is it so hard to end suffering, according to the author?",
+    "Can I think my way out of fear?",
 ]
 
 
@@ -281,7 +278,7 @@ PRICE_OUTPUT_PER_1M       = 0.60    # output (4x input -- long answers dominate)
 
 # Business projection knobs (set these to YOUR reality).
 QUERIES_PER_DAY = 2000              # expected doubt-solver traffic
-USD_TO_INR      = 88.0              # approximate; set to the current rate
+USD_TO_INR      = 95.0              # approximate; set to the current rate
 
 # Budget (the "SLO" for cost): the offline pass/fail line.
 COST_BUDGET_PER_QUERY_USD = 0.0015  # e.g. must stay under ~0.13 INR / query

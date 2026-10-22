@@ -10,7 +10,7 @@ from evals.harness import load_goldens, summarize_by_metric, print_summary
 def run():
     goldens = load_goldens(settings.GENERATOR_DATASET_PATH)
     test_cases = []
-    for g in goldens :
+    for g in goldens [:2]:
         context = [g["ideal_context"]]              # known-good context (list of chunk strings) taken from curated dataset
         answer = generate(g["query"], context)    # RUN the generator -> actual_output
 

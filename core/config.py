@@ -27,6 +27,8 @@ class Settings(BaseSettings):
     SCOPE_GOLDEN_PATH :str =  ("goldens/scope_dataset.json")
     TOXICITY_THRESHOLD : float = 0.3
     PII_THRESHOLD : float = 0.9
+    LEAKAGE_THRESHOLD : float = 0.7
+    SCOPE_THRESHOLD : float = 0.7
     
     
     EMBEDDING_BATCH_SIZE : int = 1 
