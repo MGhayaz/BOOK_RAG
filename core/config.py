@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     DATABASE_DIR : str = "chorma_book_store"
     DATA_DIR : str = "Books"
     CHUNK_SIZE : int = 450
-    CHUNK_OVERLAP : int = 70
+    CHUNK_OVERLAP : int = 90
     PDF_START_PAGE :int = 15 # PDF page 15 onwards - special case for "thepivotyear" book
     TOP_K_CONSTANT : int = 5
     RETRIEVER_DATASET_PATH : str = ("goldens/retriever_dataset.json")
