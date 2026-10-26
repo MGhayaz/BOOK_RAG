@@ -32,7 +32,9 @@ class RagPipeline:
 if __name__ == "__main__":
     
     rag = RagPipeline()
-    result = rag.invoke("How can I grow if I am not yet where I want to be in life?")
+    result = rag.invoke(
+         "Is it okay to outgrow things I love?"
+                        )
     print("QUERY:  ", result["query"])
     print("ANSWER: ", result["answer"])
     print("\nCONTEXT CHUNKS:")

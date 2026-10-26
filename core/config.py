@@ -5,6 +5,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 load_dotenv()
 class Settings(BaseSettings):
+    PROJECT_NAME :str = "book-rag-local"
+    
     GOOGLE_API_KEY: str = Field(...,min_length=1,)
     OPENAI_API_KEY: str = Field(...,min_length=1,)
 # yahan bi env ke values dale kyuki agar .env se feilds missing hue toh yahan as default diye jaate [priority env then config]
